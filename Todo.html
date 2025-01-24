@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Your Daily Task</title>
+    <link rel="stylesheet" href="/src/styles/Todo.css">
+</head>
+<body>
+        <h2 class="heading">Add Your Task, we <span>Remember</span></h2>
+    <div id="dreams">
+        <div>
+            <input type="text" id="inp" class="input" placeholder="Enter Task and Set the complition time" required>
+            <input type="datetime-local" id="datetime" class="input">
+            <button id="btn" onclick="add()">➕</button>
+        </div>
+        <ul id="bucket"></ul>
+    </div>
+    <script src="/Todo.js"></script>
+    </body>
+</html>

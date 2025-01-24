@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+body{
+    height: 100vh;
+    background-image: url('/public/images/todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+.heading span {
+    color: orange;
+    text-decoration: 2px wavy orange underline;
+}
+#dreams {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input {
+    width: calc(100% - 70px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: #218838;
+}
+.listItem {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color:white;
+}
+.listItem.completed p {
+    text-decoration: line-through;
+    color: #aaa;
+}
+.actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit {
+    background-color: #ffc107;
+    color: white;
+}
+.edit:hover {
+    background-color: #e0a800;
+}
+.delete {
+    background-color: #dc3545;
+    color: white;
+}
+.delete:hover {
+    background-color: #c82333;
+}
+.complete {
+    background-color: #17a2b8;
+    color: white;
+}
+.complete:hover {
+    background-color: #138496;
+}
